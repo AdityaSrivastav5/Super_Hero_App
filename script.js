@@ -2,9 +2,9 @@
 const superHeroToken = '122111586092030236'
 const baseUrl = `https://superheroapi.com/api.php/${superHeroToken}`
 const heroImgDIv=document.getElementById('heroImg')
-const heroButtonDiv=document.getElementById('heroButton')
-const searchButtonDiv=document.getElementById('searchButton')
-const searchInput=document.getElementById('Search-Input')
+const heroButtonDiv=document.getElementById('search-btn1')
+const searchButtonDiv=document.getElementById('search-btn')
+const searchInput=document.getElementById('search-bar')
 
 
 const getSuperHero = (id,name) => {
